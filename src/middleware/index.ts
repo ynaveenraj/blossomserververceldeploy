@@ -17,7 +17,7 @@ export default async (req: AuthRequest, resp: Response, next: NextFunction) => {
 
         const token = authorization;
 
-        const { _id } = jwt.verify(token, "express");
+        const { _id }:any = jwt.verify(token, "express");
 
         const existingUser = await User.findOne({ _id });
 
