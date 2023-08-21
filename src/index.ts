@@ -33,3 +33,5 @@ application.use("/tasks", taskRoutes);
 application.listen(PORT, () => {
     console.log("server is up and running!");
 });
+
+export default application;
