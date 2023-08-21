@@ -3,4 +3,7 @@
         "esModuleInterop": true,
         "outDir": "./api/src"
     },
+    "include": [
+        "./api/*.ts"
+    ]
 }
