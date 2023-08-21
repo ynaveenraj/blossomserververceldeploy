@@ -1,7 +1,9 @@
 {
     "compilerOptions": {
         "esModuleInterop": true,
-        "outDir": "./api/src"
+        "outDir": "dist",
+        "target": "esnext",
+        "module": "commonjs"
     },
     "include": [
         "./api/*.ts"
