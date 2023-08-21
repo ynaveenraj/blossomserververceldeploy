@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
         "esModuleInterop": true,
-        "outDir": "./api/dist"
+        "outDir": "./api/src"
     },
 }
