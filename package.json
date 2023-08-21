@@ -1,13 +1,16 @@
 {
   "name": "blossomserver",
   "version": "1.0.0",
+  "engines": {
+    "node": "18.x"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "npm install && tsc",
     "dev": "ts-node ./src/server.ts && node ./dist/server.js",
     "watch": "nodemon ./src/server.ts && node ./dist/server.js",
-    "start": "node ./dist/server.js"
+    "start": "node ./api/dist/server.js"
   },
   "keywords": [],
   "author": "",
