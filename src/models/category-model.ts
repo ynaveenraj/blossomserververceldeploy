@@ -14,12 +14,12 @@ const categorySchema = new mongoose.Schema(
         icon: {
             id: String,
             name: String,
-            code: String
+            symbol: String
         },
         color: {
             id: String,
             name: String,
-            symbol: String
+            code: String
         },
         user: {
             type: Schema.Types.ObjectId,
